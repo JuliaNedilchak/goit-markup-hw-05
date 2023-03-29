@@ -39,12 +39,14 @@ body {
   align-items: center;
   margin-left: 76px;
 }
-.main-head {
-  display: flex;
-  align-items: center;
+header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.main-head {
+  display: flex;
+  align-items: center;
 }
 .site-nav {
   display: flex;
@@ -156,10 +158,9 @@ body {
   padding: 188px 0px;
 }
 .hero-text {
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
 .overlay {
-  height: 600px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -168,7 +169,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg);
+    url(../images/people-office\ 1.jpg);
 }
 
 h1,
@@ -254,7 +255,7 @@ img {
 }
 
 .pictures-list .pic:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 header {
@@ -301,8 +302,8 @@ header {
   fill: currentColor;
 }
 .social-lists {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
 }
 .social-lists:not(:last-child) {
   margin-right: 24px;
@@ -369,7 +370,7 @@ a .part-footer {
 }
 
 .contacts .contacts-details {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   color: var(--text-color);
@@ -446,8 +447,8 @@ h1 {
   color: var(--title-color);
 }
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .work {
   background-color: var(--secondary-white-color);
@@ -567,7 +568,7 @@ footer {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .intro {
-  padding: 0px 16px;
+  padding: 32px 16px;
 }
 .card-thumb {
   position: relative;
